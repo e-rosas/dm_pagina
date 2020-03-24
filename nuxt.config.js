@@ -4,14 +4,15 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'DentiMéxico in Tijuana',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'description',
-        name: 'description',
-        content: process.env.npm_package_description || ''
+        hid: 'DentiMéxico',
+        name: 'Dental Center in Tijuana',
+        content:
+          'Dental, Tijuana, Dentist, Crowns, Root Canal, White fillings, Brackets, Dental implants, endodontist, orthodontist, periodontist, Mexico, cheap, affordable, price, cost'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
@@ -23,11 +24,22 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: [
+    // SCSS file in the project
+    '@/assets/scss/argon.scss'
+  ],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    '~/plugins/vue2-transitions',
+    '~/plugins/argon-kit',
+    '~/plugins/globalComponents',
+    '~/plugins/globalDirectives',
+    '~/plugins/vueLazyLoad',
+    '~/plugins/v-click-outside',
+    '~/plugins/argon'
+  ],
   /*
    ** Nuxt.js dev-modules
    */
