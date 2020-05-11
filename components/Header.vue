@@ -2,13 +2,13 @@
   <div>
     <base-nav type="" transparent effect="" expand>
       <nuxt-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-        <img src="img/brand/Dm-logo.png" alt="logo" />
+        <img src="img/brand/Dm-logo.png" alt="DentiMexico Logo" />
       </nuxt-link>
 
       <div slot="content-header" slot-scope="{ closeMenu }" class="row">
         <div class="col-6 collapse-brand">
-          <a href="#">
-            <img src="img/brand/Hm-logo-02.png" />
+          <a href="/" title="DentiMexico">
+            <img src="img/brand/Dm-logo-02.png" alt="DentiMexico Logo" />
           </a>
         </div>
         <div class="col-6 collapse-close">
@@ -24,27 +24,47 @@
             class="nav-link"
             data-toggle="dropdown"
             role="button"
+            title="Services"
           >
             <i class="fa fa-hospital-o d-lg-none"></i>
             <span class="nav-link-inner--text">SERVICES</span>
           </a>
-          <a class="dropdown-item" href="#services">Dentists</a>
-          <a class="dropdown-item" href="#services"
+          <a class="dropdown-item" title="Dentists" href="#services"
+            >Dentists</a
+          >
+          <a
+            class="dropdown-item"
+            href="#services"
+            title="Oral and Maxillofacial"
             >Oral and Maxillofacial Surgery</a
           >
-          <a class="dropdown-item" href="#services">Medical Specialists</a>
-          <a class="dropdown-item" href="#services">Endodontists</a>
-          <a class="dropdown-item" href="#services">Orthodontists</a>
-          <a class="dropdown-item" href="#services">Periodontists</a>
-          <a class="dropdown-item" href="#services">Pediatric Dentist</a>
+          <a class="dropdown-item" title="Medical Specialists" href="#services"
+            >Medical Specialists</a
+          >
+          <a class="dropdown-item" title="Endodontists" href="#services"
+            >Endodontists</a
+          >
+          <a class="dropdown-item" title="Orthodontists" href="#services"
+            >Orthodontists</a
+          >
+          <a class="dropdown-item" title="Periodontists" href="#services"
+            >Periodontists</a
+          >
+          <a class="dropdown-item" title="Pediatric Dentist" href="#services"
+            >Pediatric Dentist</a
+          >
         </base-dropdown>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="#insurances">
+          <a
+            class="nav-link nav-link-icon"
+            href="#insurances"
+            title="Insurances"
+          >
             Insurances
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="#pricing">
+          <a class="nav-link nav-link-icon" href="#pricing" title="Pricing">
             Pricing
           </a>
         </li>
@@ -52,12 +72,13 @@
           <a
             class="nav-link nav-link-icon"
             href="https://www.youtube.com/watch?v=rUZd4YgJ9nI"
+            title="Directions"
           >
             Directions
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="#contact">
+          <a class="nav-link nav-link-icon" href="#contact" title="Contact">
             Contact
           </a>
         </li>
@@ -93,8 +114,7 @@
         </li>
         <li class="nav-item">
           <nuxt-link slot="brand" class="navbar-brand mr-lg-5" to="es">
-            <i class="fa fa-globe"></i>
-            <span class="nav-link-inner--text d-lg-none">Español</span>
+            <span class="nav-link">Español</span>
           </nuxt-link>
         </li>
       </ul>

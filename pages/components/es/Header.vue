@@ -92,8 +92,7 @@
         </li>
         <li class="nav-item">
           <nuxt-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-            <i class="fa fa-globe"></i>
-            <span class="nav-link-inner--text d-lg-none">English</span>
+            <span class="nav-link">English</span>
           </nuxt-link>
         </li>
       </ul>

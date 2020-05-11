@@ -11,7 +11,7 @@
           <div class="row row-grid align-items-center">
             <div class="col-lg-12">
               <card class="border-0" hover shadow body-classes="py-5">
-                <div class="row">
+                <div class="row text-justify">
                   <div class="col-md-8">
                     <h6 class="text-primary text-uppercase">
                       More and more people receive medical care outside the
@@ -30,6 +30,7 @@
                       v-lazy="'img/tourism/hm-tijuana.jpg'"
                       class="rounded-square img-center img-fluid shadow"
                       style="height:300px"
+                      alt="Hospital mexico Tijuana"
                     />
                   </div>
                 </div>
@@ -39,7 +40,7 @@
           <div class="row row-grid align-items-center">
             <div class="col-lg-12">
               <card class="border-0" hover shadow body-classes="py-5">
-                <div class="row">
+                <div class="row text-justify">
                   <div class="col-md-8">
                     <h6 class="text-primary text-uppercase">
                       Less time consuming and more cost effective
@@ -62,6 +63,7 @@
                       v-lazy="'img/tourism/cirugias-tijuana.jpg'"
                       class="rounded-square img-center img-fluid shadow"
                       style="height:190"
+                      alt="Surgeries in Tijuana"
                     />
                   </div>
                 </div>
@@ -71,7 +73,7 @@
           <div class="row row-grid align-items-center">
             <div class="col-lg-12">
               <card class="border-0" hover shadow body-classes="py-5">
-                <div class="row">
+                <div class="row text-justify">
                   <div class="col-md-8">
                     <h6 class="text-primary text-uppercase">
                       More benefits
@@ -91,6 +93,7 @@
                       v-lazy="'img/tourism/panoramica-tijuana.jpg'"
                       class="rounded-square img-center img-fluid shadow"
                       style="height:400"
+                      alt="Tijuana panoramic view"
                     />
                   </div>
                 </div>
@@ -102,3 +105,8 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  name: 'Tourism'
+}
+</script>

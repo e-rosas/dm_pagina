@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <MainSlider></MainSlider>
+    <Message></Message>
     <Description></Description>
     <Services></Services>
     <Surgeries></Surgeries>
@@ -18,6 +19,7 @@ import Surgeries from './components/es/Surgeries'
 import Insurances from './components/es/Insurances'
 import Contact from './components/es/Contact'
 import Tourism from './components/es/Tourism'
+import Message from './components/es/Message'
 export default {
   layout: 'AppEs',
   name: 'Index',
@@ -28,7 +30,8 @@ export default {
     Surgeries,
     Insurances,
     Contact,
-    Tourism
+    Tourism,
+    Message
   },
   data() {
     return {

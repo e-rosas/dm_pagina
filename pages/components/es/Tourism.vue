@@ -11,7 +11,7 @@
           <div class="row row-grid align-items-center">
             <div class="col-lg-12">
               <card class="border-0" hover shadow body-classes="py-5">
-                <div class="row">
+                <div class="row text-justify">
                   <div class="col-md-8">
                     <h6 class="text-primary text-uppercase">
                       Cada vez más personas se atienden fuera de Estados Unidos
@@ -38,7 +38,7 @@
           <div class="row row-grid align-items-center">
             <div class="col-lg-12">
               <card class="border-0" hover shadow body-classes="py-5">
-                <div class="row">
+                <div class="row text-justify">
                   <div class="col-md-8">
                     <h6 class="text-primary text-uppercase">
                       Menor tiempo de espera
@@ -71,7 +71,7 @@
           <div class="row row-grid align-items-center">
             <div class="col-lg-12">
               <card class="border-0" hover shadow body-classes="py-5">
-                <div class="row">
+                <div class="row text-justify">
                   <div class="col-md-8">
                     <h6 class="text-primary text-uppercase">
                       Beneficios

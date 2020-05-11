@@ -9,10 +9,16 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
-        hid: 'DentiMéxico',
-        name: 'Dental Center in Tijuana',
+        hid: 'keywords',
+        name: 'keywords',
         content:
           'Dental, Tijuana, Dentist, Crowns, Root Canal, White fillings, Brackets, Dental implants, endodontist, orthodontist, periodontist, Mexico, cheap, affordable, price, cost'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'DentiMexico is the Dental Center integrated to Hospital México, providing affordable dental care for everyone. Call now for any questions you may have.'
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
@@ -31,15 +37,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    '~/plugins/vue2-transitions',
-    '~/plugins/argon-kit',
-    '~/plugins/globalComponents',
-    '~/plugins/globalDirectives',
-    '~/plugins/vueLazyLoad',
-    '~/plugins/v-click-outside',
-    '~/plugins/argon'
-  ],
+  plugins: ['~/plugins/vue2-transitions', '~/plugins/argon'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -52,7 +50,15 @@ export default {
    */
   modules: [
     // Doc: https://bootstrap-vue.js.org
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/sitemap',
+    [
+      '@nuxtjs/component-cache',
+      {
+        max: 10000,
+        maxAge: 1000 * 60 * 60
+      }
+    ]
   ],
   /*
    ** Build configuration
