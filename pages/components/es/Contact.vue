@@ -118,7 +118,7 @@
                   <img
                     v-lazy="'/img/tourism/hm-map-min.png'"
                     class="img-fluid floating"
-                    alt="Fluid image"
+                    alt="DentiMexico location"
                   />
                 </a>
               </div>
@@ -129,3 +129,8 @@
     </section>
   </section>
 </template>
+<script>
+export default {
+  name: 'Contacto'
+}
+</script>

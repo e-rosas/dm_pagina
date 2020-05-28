@@ -17,6 +17,7 @@
                 v-lazy="'/img/services/servicio-dentistas-min.jpg'"
                 class="rounded-square img-center img-fluid shadow shadow-lg--hover"
                 style="width: 200px;"
+                alt="Servicio dentistas"
               />
               <div class="pt-4 text-center">
                 <h5 class="title">
@@ -33,6 +34,7 @@
                 v-lazy="'/img/services/servicio-cirugias-dentales-min.jpg'"
                 class="rounded-square img-center img-fluid shadow shadow-lg--hover"
                 style="width: 200px;"
+                alt="Cirugias dentales"
               />
               <div class="pt-4 text-center">
                 <h5 class="title">
@@ -51,6 +53,7 @@
                 v-lazy="'/img/services/servicio-implantes-dentales-min.jpg'"
                 class="rounded-square img-center img-fluid shadow shadow-lg--hover"
                 style="width: 200px;"
+                alt="Implantes dentales"
               />
               <div class="pt-4 text-center">
                 <h5 class="title">
@@ -67,6 +70,7 @@
                 v-lazy="'/img/services/servicio-endodoncistas-min.jpg'"
                 class="rounded-square img-center img-fluid shadow shadow-lg--hover"
                 style="width: 200px;"
+                alt="Endodoncista"
               />
               <div class="pt-4 text-center">
                 <h5 class="title">
@@ -85,6 +89,7 @@
                 v-lazy="'/img/services/servicio-ortodoncista-min.jpg'"
                 class="rounded-square img-center img-fluid shadow shadow-lg--hover"
                 style="width: 200px;"
+                alt="Ortodoncista"
               />
               <div class="pt-4 text-center">
                 <h5 class="title">
@@ -101,6 +106,7 @@
                 v-lazy="'/img/services/servicio-periodoncista-min.jpg'"
                 class="rounded-square img-center img-fluid shadow shadow-lg--hover"
                 style="width: 200px;"
+                alt="Periodoncista"
               />
               <div class="pt-4 text-center">
                 <h5 class="title">
@@ -117,6 +123,7 @@
                 v-lazy="'/img/services/servicio-pediatrico-min.jpg'"
                 class="rounded-square img-center img-fluid shadow shadow-lg--hover"
                 style="width: 200px;"
+                alt="Servicio pediatrico"
               />
               <div class="pt-4 text-center">
                 <h5 class="title">
@@ -130,3 +137,8 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  name: 'Servicios'
+}
+</script>

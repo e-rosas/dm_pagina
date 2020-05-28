@@ -56,7 +56,7 @@
 </template>
 <script>
 export default {
-  name: 'Footer',
+  name: 'FooterES',
   data() {
     return {
       year: new Date().getFullYear()

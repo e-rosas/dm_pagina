@@ -22,7 +22,7 @@ import Tourism from './components/es/Tourism'
 import Message from './components/es/Message'
 export default {
   layout: 'AppEs',
-  name: 'Index',
+  name: 'IndexEsp',
   components: {
     MainSlider,
     Description,
@@ -35,19 +35,29 @@ export default {
   },
   data() {
     return {
-      title: 'Dentistas en Tijuana'
+      title: 'DentiMéxico in Tijuana',
+      description:
+        'DentiMexico es el centro dental integrado en Hospital México, proporcionando servicio dental de calidad para todos. Llame ahora en caso de tener alguna duda o pregunta.'
     }
   },
   head() {
     return {
       title: this.title,
+      htmlAttrs: {
+        lang: 'es'
+      },
       meta: [
         // hid is used as unique identifier. Do not use `vmid` for it as it will not work
         {
-          hid: 'DentiMexico Tijuana',
-          name: 'DentiMexico, Tijuana, Hospital México​ Tijuana',
+          hid: 'description',
+          name: 'description',
+          content: this.description
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
           content:
-            'Dentista, Cirugia, Tijuana, México​, Dental, Resinas, Corona, Puentes, Dentaduras'
+            'Hospital, Tijuana, México,​ Dental, Dentista, Coronas, Implantes, Periodontista, ortodontista, citas, Endodoncistas, cirugias'
         }
       ]
     }

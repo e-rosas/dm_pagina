@@ -6,6 +6,7 @@
         img-src="/img/slider/main/DM-Slide-1-min.jpg"
         img-fluid
         style="max-height:450px;"
+        img-alt="DM Intro"
       >
         <h3 style="color: white;">Hospital México está abierto</h3>
         <div class="row d-none d-md-block">
@@ -41,6 +42,7 @@
         img-src="/img/slider/main/DM-Slide-2-min.jpg"
         img-fluid
         style="max-height:450px;"
+        img-alt="DM Servicios"
       >
         <h4 style="color: white;">
           Coronas, puentes, implantes,periodoncia, dentistas pediatricos.
@@ -50,5 +52,7 @@
   </div>
 </template>
 <script>
-export default {}
+export default {
+  name: 'SliderES'
+}
 </script>

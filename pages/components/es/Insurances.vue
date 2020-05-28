@@ -45,6 +45,7 @@
               v-lazy="'/img/insurances/aetna.png'"
               class="rounded-square img-center img-fluid shadow shadow-lg--hover"
               style="width: 200px;"
+              alt="AETNA"
             />
             <div class="pt-4 text-center">
               <h5 class="title">
@@ -59,6 +60,7 @@
               v-lazy="'/img/insurances/bcbs.png'"
               class="rounded-sqaure img-center img-fluid shadow shadow-lg--hover"
               style="width: 92px;"
+              alt="BCBS"
             />
             <div class="pt-4 text-center">
               <h5 class="title">
@@ -73,6 +75,7 @@
               v-lazy="'/img/insurances/RFK_MEdical_Plan.png'"
               class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
               style="width: 80px;"
+              alt="RFK Medical Plan"
             />
             <div class="pt-4 text-center">
               <h5 class="title">
@@ -87,6 +90,7 @@
               v-lazy="'/img/insurances/tw.png'"
               class="rounded-sqaure img-center img-fluid shadow shadow-lg--hover"
               style="width: 200px;"
+              alt="Transwestern"
             />
             <div class="pt-4 text-center">
               <h5 class="title">
@@ -99,3 +103,8 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  name: 'Aseguranzas'
+}
+</script>

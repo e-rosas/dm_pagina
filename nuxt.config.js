@@ -12,7 +12,7 @@ export default {
         hid: 'keywords',
         name: 'keywords',
         content:
-          'Dental, Tijuana, Dentist, Crowns, Root Canal, White fillings, Brackets, Dental implants, endodontist, orthodontist, periodontist, Mexico, cheap, affordable, price, cost'
+          'Dental, Tijuana, Dentist, Crowns, Root Canal, White fillings, Brackets, Dental implants, endodontist, orthodontist, periodontist, Mexico, cheap, affordable, price, cost, Dentista, Aseguranza'
       },
       {
         hid: 'description',
@@ -60,6 +60,10 @@ export default {
       }
     ]
   ],
+  sitemap: {
+    hostname: 'https://dentimexico.com/'
+    // gzip: true,
+  },
   /*
    ** Build configuration
    */
@@ -67,6 +71,7 @@ export default {
     /*
      ** You can extend webpack config here
      */
+    extractCSS: true,
     extend(config, ctx) {}
   }
 }

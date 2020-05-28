@@ -79,3 +79,8 @@
     </div>
   </section>
 </template>
+<script>
+export default {
+  name: 'Descripcion'
+}
+</script>
